@@ -1,0 +1,436 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.nav{
+    width: 100%;
+    height: 64px;
+    background-color: white;
+    padding: 0px;
+    box-shadow: none;
+}
+.nav1{
+    margin-left: 10%;
+    height: 64px;
+    width: 80%;
+    background-color: white;
+    display: flex;  
+    align-items: center; 
+}
+.logo{
+  width: 10%;  
+}
+.input1{
+    margin-left: 2%;
+    width: 40%;
+    height: 40%;
+    background-image: url("/img/search-d38e9a62db75.svg");
+    background-repeat: no-repeat;
+    padding-left: 2%;
+}
+.place{
+    font-family: Roboto , sans-serif;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 27%;
+
+}
+.dropdown{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.sign{
+    margin-left: 3%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    width: 67px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgb(248, 68, 100);
+    display: block;
+    cursor: pointer;
+}
+.menu{
+    margin-left: 2%;
+    width: 30px;
+    height: 30px;
+}
+.nav2{
+    width: 100%;
+    height: 30px;
+    background-color: #f5f5f5;
+    display: flex;
+   
+}
+.top1{
+    width: 50%;
+    height: 100%;
+    background-color: #f5f5f5;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0px 10px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    word-spacing: 20px;
+    
+}
+.top2{
+    
+    width: 50%;
+    height: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    word-spacing: 20px;
+    padding: 0px 12px;
+    text-decoration: none;
+    transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    padding-left: 30%;
+}
+.session1{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%),url('../img/bougainvillea-et00413069-1727432413.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s1_2{
+    width: 250px;
+    height: 400px;
+    background-color: black;
+    margin-top: 3%;
+    margin-left: 10%;
+    text-align: center;
+    align-items: center;
+    border-radius: 16px;
+    
+}
+.s1img{
+    width: 100%;
+    height: 90%;
+    border-radius: 16px 16px 0px 0px;
+}
+.s1_2 label{
+    color: white;
+    font-size: 14px;
+    padding-top: 70px;
+    
+}
+.s1_3{
+    margin-top: 3%;
+    width: 400px;
+    height: 400px;
+    
+    margin-left: 2%;
+}
+.s1d{
+    width: 400px;
+    height: 15%;
+    background-color: #333333;
+    display: flex;
+    border-radius: 8px;
+    text-align: center;
+}
+.s1d img{
+    width: 30px;
+    height: 30px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.s1d h5{
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 16px 8px;
+}
+.s1d h6{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 16px 8px;
+}
+.s1_3 h2{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+}
+.s1d button{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    color: rgb(26, 26, 26);
+    height: 40px;
+    width: 100px;
+    margin-top: 9px;
+    margin-left: 18%;
+    border: none;
+}
+.d2 , .malayalam{
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+}
+.dd{
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.book{
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(248, 68, 100);
+}
+.session2{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+.s2_2{
+    width: 58%;
+    height: 200px;
+    margin-left: 10%;
+    background-color: white;
+}
+.about{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+}
+.tt{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: rgb(51, 51, 51);
+    padding-top: 16px;
+}
+
+.session15{
+    width: 100%;
+    height: 90px;
+    background-color: #333338;
+    
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.s15_img{
+    margin-right: 1%;
+    margin-left: 10%;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/hut.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.s15txt1{
+    padding-top: 1%;
+    width: auto;
+    height: 30px;
+    
+    margin-right: 2%;
+    
+}
+.s15p1{
+    color: #ffffff;
+    font: 16px roboto,sans-serif;
+    font-weight: 600;
+}
+.s15p2{
+    color: #ffffff;
+    font: 16px roboto,sans-serif;
+    font-weight: 500;
+}
+.s15btn{
+    margin-left: 8%;
+}
+.s15btn a{
+    flex: 0 0 auto;
+    background-color: rgb(236, 94, 113);
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.session16{
+    width: 100%;
+    height: 100px;
+    background-color: #5d5d5f;
+    background-image: url("../img/customer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.session17{
+    display: flex;
+    width: 100%;
+    height: 790px;
+    background-color: #333338;
+    
+    
+}
+.s17_2{
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+   
+}
+.s17_2 dt{
+    color: #A5A5A5;
+    margin: 0px 0px 20px;
+    font: 12px roboto,sans-serif;
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    margin: 20px 0px 20px;
+    color: rgb(165, 165, 165);
+}
+.s17_2 dd{
+    color: rgb(127, 127, 127);
+    margin-left: 0px;
+    margin: 0px 5px 5px 0px;
+    font: 11px roboto,sans-serif;
+
+}
+.session17 a{
+    font-size: 11px;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out;
+    margin: 0px 5px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+}
+
+
+.session18{
+    
+    width: 100%;
+    height: auto;
+    background-color: #333338;
+    
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.s18d{
+    position: relative;
+    margin-top: 8%;
+    width: 100%;
+    flex: 1 1 0%;
+    height: 1px;
+    background: rgb(93, 93, 95);
+}
+.s18img{
+    cursor: pointer;
+    position: relative;
+    width: 220px;
+    height: 50px;
+    background-color:#333338;
+    background-image: url('../img/logo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom:30px ;
+    left: 43%;
+    z-index: 100;
+
+}
+.session19{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #08b94c;
+    margin-top: 200px;
+   
+}
+
+.s191{
+    width: 100%;
+    height: 100px;
+    background-color: #e7003e;
+    
+}
+.social{
+    height: 40px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    /* background-color: #ec5e71; */
+    align-items: center;
+    justify-content: center;
+}
+.socialimg{
+    height: 40px;
+    filter: invert(50%);
+    opacity: 0.5;
+}
+.context{
+    background-color:#333338;
+    display: flex;
+    margin-top: 210px;
+    padding-left: 2%;
+    color: #a5a5a575;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+svg:hover{
+    color: #c71616;
+    border-radius: 50%;
+    opacity:0.1;
+}
+
+
+
+
+
+
+

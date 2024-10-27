@@ -967,7 +967,7 @@ h2 {
 .session18{
     
     width: 100%;
-    height: 200px;
+    height: auto;
     background-color: #333338;
     
     position: absolute;
@@ -1013,7 +1013,35 @@ h2 {
     background-color: #e7003e;
     
 }
-
+.social{
+    height: 40px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    /* background-color: #ec5e71; */
+    align-items: center;
+    justify-content: center;
+}
+.socialimg{
+    height: 40px;
+    filter: invert(50%);
+    opacity: 0.5;
+}
+.context{
+    background-color:#333338;
+    display: flex;
+    margin-top: 210px;
+    padding-left: 2%;
+    color: #a5a5a575;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+svg:hover{
+    color: #c71616;
+    border-radius: 50%;
+    opacity:0.1;
+}
 
 
 
