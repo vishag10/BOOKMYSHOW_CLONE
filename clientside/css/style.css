@@ -59,8 +59,8 @@ body{
 }
 .menu{
     margin-left: 2%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 .nav2{
     width: 100%;
@@ -155,9 +155,15 @@ margin-right: 1.5%;
     border-radius: 12px;
     width: 230px;
     height: 380px;
-    background-image: url("../img/et00413069-wpgxjsbbtq-portrait.avif");
+    /* background-image: url("../img/et00413069-wpgxjsbbtq-portrait.avif"); */
     background-repeat: no-repeat;
     background-size: cover;
+}
+.img1>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
 }
 
 
@@ -1041,6 +1047,12 @@ svg:hover{
     color: #c71616;
     border-radius: 50%;
     opacity:0.1;
+}
+.signa{
+    text-decoration: none;
+}
+.addm{
+    margin-left: 2%;
 }
 
 
