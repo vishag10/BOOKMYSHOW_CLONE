@@ -12,6 +12,7 @@ router.route("/addmovie").post(mh.addMovie);
 router.route("/getmovie").get(mh.getMovies);
 router.route("/secondpage/:_id").get(mh.getSecondpage);
 router.route("/deletemovie/:_id").delete(mh.deleteMovie);
+router.route("/updatemovie/:_id").put(mh.updateMovie);
 
 
 export default router;

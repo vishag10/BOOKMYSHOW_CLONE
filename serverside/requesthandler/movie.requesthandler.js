@@ -49,3 +49,15 @@ export async function deleteMovie(req,res){
        })
     
 }
+
+export async function updateMovie(req,res){
+    const {_id}=req.params
+    const {name ,rating,screen,language,duration,certified,type}=req.body;
+    await movieSchema.findByIdAndUpdate(_id,{name ,rating,screen,language,duration,certified,type})
+       .then(()=>{
+            res.status(200).send({msg:"Task updated successfully"})
+       })
+       .catch((err)=>{
+            res.status(500).send(err)
+       })
+}
