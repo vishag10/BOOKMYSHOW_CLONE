@@ -54,7 +54,7 @@ async function getMovies(){
 
                    str+= `
                         <div class="scroll1">
-                            <a href="./pages/secondpage.html">
+                            <a href="./pages/secondpage.html?id=${movie._id}">
                              <div class="img1">
                                 <img src="${movie.moviespic[0]}" alt="">
 

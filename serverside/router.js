@@ -10,6 +10,8 @@ router.route("/home").get(Auth,rh.Home);
 router.route("/forgot").post(rh.passwordRequest);
 router.route("/addmovie").post(mh.addMovie);
 router.route("/getmovie").get(mh.getMovies);
+router.route("/secondpage/:_id").get(mh.getSecondpage);
+router.route("/deletemovie/:_id").delete(mh.deleteMovie);
 
 
 export default router;

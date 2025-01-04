@@ -26,3 +26,26 @@ export async function getMovies(req, res) {
         res.status(500).send({ msg: "Failed to fetch movies" });
     }
 }
+
+
+ export async function getSecondpage(req, res){
+    const {_id}=req.params;
+    const data=await movieSchema.findOne({_id})
+    console.log(data);
+    res.status(200).send(data);
+     
+
+    
+}
+
+export async function deleteMovie(req,res){
+    const {_id}=req.params
+       await movieSchema.deleteOne({_id})
+       .then(()=>{
+           res.status(200).send({msg:"Task deleted successfully"})
+       })
+       .catch((err)=>{
+           res.status(500).send(err)
+       })
+    
+}
